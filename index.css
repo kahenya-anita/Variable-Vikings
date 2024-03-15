@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background: #bba694;
+}
+
+section{
+    position:relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo{
+    color: #ffffd5;
+    font-size: 2em;
+    text-decoration: none;
+    background: #9b7239;
+    padding: 0 10px;
+    font-family: 'Lora', serif;
+    font-weight: 600px;
+}
+
+header .navbar{
+    position: relative;
+    display: flex;
+}
+
+header .navbar li{
+    list-style: none;
+    margin-left: 30px;
+}
+
+header .navbar li a{
+    text-decoration: none;
+    color: #7a551c;
+    font-weight: 600;
+    padding: 10px;
+    transform: 0.3s;
+    font-size: 0.9em;
+}
+
+header .navbar li a:hover{
+    color: #ffffd5;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+
+}
+
+.container .contentBox{
+    position: relative;
+    max-width: 700px;
+}
+
+.container .contentBox h2{
+    font-size: 4.5em;
+    text-transform: uppercase;
+    color: #7a551c;
+    line-height: 1.3;
+}
+
+.container .contentBox span{
+    background: #9b7239;
+    color: #ffffd5;
+    padding: 0 10px;
+    font-family: 'Lora', serif;
+    font-weight: 600;
+}
+.container .contentBox p{
+    font-size: 1.8em;
+    line-height: 1.5;
+    color: #7a551c;
+    font-weight: 600;
+    font-family: 'Lora', serif;
+    margin-bottom: 28px;
+}
+
+.container .contentBox a{
+    text-decoration: none;
+    background: #7a551c;
+    color: #ffffd5;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 30px;
+    letter-spacing: 2px;
+    transition: 0.3s;
+}
+
+.container .contentBox a:hover{
+    color: #7a551c;
+    background: #ffffd5;
+}
